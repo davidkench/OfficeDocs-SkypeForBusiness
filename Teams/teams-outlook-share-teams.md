@@ -10,7 +10,7 @@ ms.reviewer:
 ms.date: 03/10/2021
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Learn about the Share to Teams feature, which allows users to share emails and email attachments from Outlook to any chat or channel in Teams.  
+description: Learn about the Share to Teams feature, which allows Exchange Online users to share emails and email attachments from Outlook to any chat or channel in Teams.  
 ms.collection: 
   - M365-collaboration
 ms.custom: chat-teams-channels-revamp
@@ -20,11 +20,11 @@ appliesto:
 
 # Share to Teams from Outlook
 
-Share to Teams from Outlook (Share to Teams) enables users to share emails, including attachments, from Outlook to any chat or channel in Teams.
+Share to Teams from Outlook (Share to Teams) enables Exchange Online users to share emails, including attachments, from Outlook to any chat or channel in Teams.  Users with mailboxes hosted on-prem will either not see the Share to Teams button in the Outlook ribbon, or it may be greyed out.
 
 ## Outlook add-in for Share to Teams 
 
-The Share to Teams feature requires an add-in for Outlook. This add-in is installed automatically whenever a user logs on to either the Teams Web app or the Teams desktop client.
+The Share to Teams feature requires the user's mailbox to be hosted in Exchange Online.  It also requires an add-in for Outlook. This add-in is installed automatically whenever a user logs on to either the Teams Web app or the Teams desktop client.
 
 > [!NOTE]
 > Be sure to review [Add-ins for Outlook in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook) and [Client Access Rules in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules) to make sure your add-ins for Outlook function correctly. Also, disabling connected experiences can prevent add-ins for Outlook from working properly. See [Connected experiences in Office](https://support.microsoft.com/topic/connected-experiences-in-office-8d2c04f7-6428-4e6e-ac58-5828d4da5b7c) for more information. Shared mailboxes are not supported by the add-in. 
